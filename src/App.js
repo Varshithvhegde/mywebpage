@@ -40,7 +40,7 @@ function App() {
   return (
     <>
     <div className="Navbar">
-      <h1>Welcome To MyHood
+      <h1>Welcome To MyWebPage
       </h1>
       <button onClick={display}>Get Users</button>
     </div>
@@ -48,11 +48,7 @@ function App() {
       <div>
         {loading ? null : cardData.map(renderCard)}
       </div>  
-      <div footer>
-      <footer>
-        <p>Design And Developed By @Ajay Gaur</p>
-      </footer>
-      </div>
+      
     </>
     
   );
